@@ -9,7 +9,6 @@ function App() {
   return (
     <div className="App">
     <BrowserRouter>
-      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/create" element={<Add />} />
